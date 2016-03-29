@@ -13,19 +13,19 @@ $(window).load(function() {
 	      before: function(slider){
 			   $(slider).find(".animated").each(function(){
 			   	$(this).removeAttr("class");
-			  	});			  	
+			  	});
 			},
 			start: function(slider){
 			   $(slider).find(".flex-active-slide")
 			           	.find("h1").addClass("animated fadeInDown show")
 			           	.next().addClass("animated fadeInUp show");
-			           		
-			   $(window).trigger('resize');		  			 
+
+			   $(window).trigger('resize');
 			},
 			after: function(slider){
 			 	$(slider).find(".flex-active-slide")
 			           	.find("h1").addClass("animated fadeInDown show")
-			           	.next().addClass("animated fadeInUp show");			  
+			           	.next().addClass("animated fadeInUp show");
 			}
 	   });
 

@@ -32,8 +32,8 @@
 	letter-spacing: -1px;
 	padding-bottom: 24px;
 	color: white;
-	
-	position: relative;    
+
+	position: relative;
 
 	/* for css animations */
 	filter: alpha(opacity=0);
@@ -56,9 +56,9 @@
 #arerm-slider .slides .flex-caption h3 {
 	font: 18px/1.9 "merriweather-light", sans-serif;
 	color: rgba(255, 255, 255, 0.7);
-	
+
 	width: 85%;
-	margin-top: 24px;    
+	margin-top: 24px;
 
 	/* for css animations */
 	filter: alpha(opacity=0);
@@ -88,7 +88,7 @@
 	zoom: 1;
 }
 
-/* media queries:  
+/* media queries:
 /* #arerm / .arerm-contert / #arerm-slider */
 
 @media only screen and (max-width:1200px) {
